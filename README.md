@@ -1,6 +1,6 @@
 # Medical Chatbot with Generative AI
 
-This project is a medical chatbot designed to assist users by leveraging generative AI capabilities. It extracts information from medical books, preprocesses it into manageable chunks, embeds the data into vector representations using a vector embedding model, and stores them in a Pinecone vector database. The chatbot uses these embeddings to retrieve relevant information and provide accurate responses.
+This project is a medical chatbot designed to assist users by leveraging generative AI capabilities. It extracts information from medical books, preprocesses it into manageable chunks, embeds the data into vector representations using both OpenAI API and Hugging Face embeddings, and stores them in a Pinecone vector database. The chatbot uses these embeddings to retrieve relevant information and provide accurate responses.
 
 ---
 
@@ -16,7 +16,7 @@ This project is a medical chatbot designed to assist users by leveraging generat
 
 3. **Vector Embeddings**
 
-   - Converts text chunks into vector embeddings for semantic similarity search.
+   - Converts text chunks into vector embeddings using OpenAI and Hugging Face models for semantic similarity search.
 
 4. **Pinecone Integration**
 
@@ -34,6 +34,7 @@ This project is a medical chatbot designed to assist users by leveraging generat
 - Python 3.10
 - Pip (Python package manager)
 - Pinecone API Key
+- OpenAI API Key
 
 ### Steps
 
